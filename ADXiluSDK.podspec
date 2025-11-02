@@ -28,7 +28,7 @@ spec.description  = <<-DESC
 ADXilu iOS SDK 是一个广告聚合SDK，支持多个主流广告平台，提供统一的广告接口。
 DESC
 
-spec.homepage     = "https://github.com/xiluProject/XiluSdk_ios_pod"
+spec.homepage     = "https://github.com/xiluProject/XiluSdk_ios_pod.git"
 spec.license      = "MIT"
 spec.platform     = :ios, "12.2"
 spec.ios.deployment_target = '12.2'
