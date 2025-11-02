@@ -46,7 +46,7 @@ spec.swift_versions = ['5.0', '5.1', '5.2']
 spec.dependency 'ObjectMapper'
 spec.dependency 'CryptoSwift'
 
-pec.dependency 'BeiZiSDK-iOS', '4.90.7.0'
+spec.dependency 'BeiZiSDK-iOS', '4.90.7.0'
 spec.dependency 'MSMobAdSDK/MS', '2.7.7.3'
 
 end
