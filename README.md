@@ -17,10 +17,8 @@ ADXiluSDK是一个支持多平台广告聚合的iOS SDK，提供统一的API接�
 - **横幅广告** (Banner Ad)
 - **插屏广告** (Interstitial Ad)  
 - **激励视频广告** (Reward Video Ad)
-- **原生广告** (Native Ad)
 - **开屏广告** (Splash Ad)
-- **全屏视频广告** (Full Screen Video Ad)
-- **Draw视频信息流** (Draw Video Feed Ad)
+- **原生广告** (Native Ad)
 
 ## 支持的广告平台
 
