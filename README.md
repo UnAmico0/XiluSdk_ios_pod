@@ -118,7 +118,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     
     // 创建Banner广告
     ADXiluAdSize *adSize = [[ADXiluAdSize alloc] initWithWidth:CGRectGetWidth([UIScreen mainScreen].bounds) height:60];
-    self.bannerAd = [[ADXiluBannerAd alloc] initWithAdPosId:@"ajebtp3k" adSize:adSize];
+    self.bannerAd = [[ADXiluBannerAd alloc] initWithAdPosId:@"your_interstitial_ad_pos_id" adSize:adSize];
     self.bannerAd.showCloseBtn = YES;
     self.bannerAd.containerView = self.containerView;
     self.bannerAd.nativeViewController = self;
@@ -210,7 +210,7 @@ extension BannerAdViewController: ADXiluBaseAdDelegate {
         [self showAlertWithTitle:@"错误" message:@"SDK未初始化"];
         return;
     }
-    _interstitialAd = [[ADXiluInterstitialAd alloc] initWithAdPosId:your_interstitial_ad_pos_id
+    _interstitialAd = [[ADXiluInterstitialAd alloc] initWithAdPosId:@"your_interstitial_ad_pos_id"
                                                              adSize:[ADXiluAdSize screenSize]
                                                              rootVC:self];
     _interstitialAd.delegate = self;
@@ -293,7 +293,7 @@ extension InterstitialAdViewController: ADXiluBaseAdDelegate {
     [self.rewardVodAd p_release];
     
     // 创建激励视频广告
-    self.rewardVodAd = [[ADXiluRewardVodAd alloc] initWithAdPosId:your_interstitial_ad_pos_id];
+    self.rewardVodAd = [[ADXiluRewardVodAd alloc] initWithAdPosId:@"your_interstitial_ad_pos_id"];
     self.rewardVodAd.delegate = self;
     self.rewardVodAd.videoDelegate = self;
     self.rewardVodAd.isMuted = NO;
@@ -469,7 +469,7 @@ extension SplashAdViewController: ADXiluBaseAdDelegate {
 #import <ADXiluSDK/ADXiluSDK.h>
 
 - (void)loadNativeAd {
-    _nativeAd = [[ADXiluNativeAd alloc] initWithAdPosId:your_interstitial_ad_pos adSize:[ADXiluAdSize screenSize] count:ad_count];
+    _nativeAd = [[ADXiluNativeAd alloc] initWithAdPosId:@"your_interstitial_ad_pos_id" adSize:[ADXiluAdSize screenSize] count:ad_count];
     _nativeAd.delegate = self;
     _nativeAd.containerView = nil;
     _nativeAd.isTemplate = false;//(信息流模板广告为true,信息流自渲染广告为false)
