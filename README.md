@@ -133,7 +133,6 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 // 实现代理方法
 - (void)xilu_AdDidReceive:(ADXiluBaseAd *)xiluAd adInfo:(ADXiluAdInfo *)adInfo {
     NSLog(@"Banner广告加载成功");
-    [(ADXiluInterstitialAd *)xiluAd showAdFrom:self];
 }
 
 - (void)xilu_AdDidFail:(ADXiluBaseAd *)xiluAd error:(ADXiluError *)error {
@@ -389,7 +388,7 @@ extension RewardVodAdViewController: ADXiluRewardVodAdDelegate {
     
     // 创建开屏广告
     ADXiluAdSize *adSize = [[ADXiluAdSize alloc] initWithWidth:[UIScreen mainScreen].bounds.size.width height:300];
-    self.splashAd = [[ADXiluSplashAd alloc] initWithAdPosId:@"ejfggd92" style:ADXiluSplashAdStyleHalfScreen adSize:adSize];
+    self.splashAd = [[ADXiluSplashAd alloc] initWithAdPosId:@"your_interstitial_ad_pos_id" style:ADXiluSplashAdStyleHalfScreen adSize:adSize];
     self.splashAd.bottomView = self.bottomView;
     self.splashAd.delegate = self;
     self.splashAd.countdownDuration = 5.0;
