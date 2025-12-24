@@ -35,9 +35,5 @@ Pod::Spec.new do |s|
   s.dependency 'CryptoSwift'
   s.dependency 'BeiZiSDK-iOS', '4.90.7.0'
   s.dependency 'MSMobAdSDK/MS', '2.7.7.3'
-  
-  # 修正语法错误：确保格式正确
-  s.pod_target_xcconfig = {
-    "USE_MODULAR_HEADERS" => "YES"
-  }
+ 
 end
