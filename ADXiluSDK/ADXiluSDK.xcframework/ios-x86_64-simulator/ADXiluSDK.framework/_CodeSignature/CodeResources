@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/ADXiluSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		W5fUReH4C3EZoZBa3P+5e3sHt44=
+		fMti3UgJZES3CjwsO9evISnuDzs=
 		</data>
 		<key>Modules/ADXiluSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Fp9ZsJxFki2AWOrwfwBEAKtRobs=
+		QAOu/yCbdP42rNQKMtnR/mhw1Lk=
 		</data>
 		<key>Modules/ADXiluSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -73,22 +73,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			W5fUReH4C3EZoZBa3P+5e3sHt44=
+			fMti3UgJZES3CjwsO9evISnuDzs=
 			</data>
 			<key>hash2</key>
 			<data>
-			dof1Hb0j+K1M4E3kbRLFsK6OSzOZaaoWEM3ZW4DyOrE=
+			kSWfzvopnBnd/EK1ronwea/7YxPvF/IxAsak/bVCSJ4=
 			</data>
 		</dict>
 		<key>Modules/ADXiluSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Fp9ZsJxFki2AWOrwfwBEAKtRobs=
+			QAOu/yCbdP42rNQKMtnR/mhw1Lk=
 			</data>
 			<key>hash2</key>
 			<data>
-			JWil9cPFZnZ0HxNXts/t7fGoFmXWWBMQz33hCuyLra8=
+			nSlGh+ryR+inR4Py+suAlfBP42/mROAwbSkwABx51ok=
 			</data>
 		</dict>
 		<key>Modules/ADXiluSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
