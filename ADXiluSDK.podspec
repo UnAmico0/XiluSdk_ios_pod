@@ -28,8 +28,8 @@ Pod::Spec.new do |s|
     "CoreTelephony"
   ]
   
-  s.source_files = 'ADXiluSDK/Classes/**/*'
-  
+  #s.source_files = 'ADXiluSDK/Classes/**/*'
+  s.vendored_frameworks = "ADXiluSDK/*.framework"
   # 依赖项
   s.dependency 'ObjectMapper'
   s.dependency 'CryptoSwift'
