@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   ]
   
   #s.source_files = 'ADXiluSDK/Classes/**/*'
-  s.vendored_frameworks = "ADXiluSDK/*.framework"
+  s.vendored_frameworks = "ADXiluSDK/*.xcframework"
   # 依赖项
   s.dependency 'ObjectMapper'
   s.dependency 'CryptoSwift'
