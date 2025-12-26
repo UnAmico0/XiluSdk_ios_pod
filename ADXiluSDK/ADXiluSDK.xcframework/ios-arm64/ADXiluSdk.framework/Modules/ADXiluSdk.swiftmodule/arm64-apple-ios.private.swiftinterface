@@ -377,58 +377,6 @@ extension ADXiluSDK.ADXiluBaseAd : ADXiluSDK.ADXiluBaseAdDelegate {
   @objc dynamic public func xilu_AdDidSkip(_ xiluAd: ADXiluSDK.ADXiluBaseAd, adInfo: ADXiluSDK.ADXiluAdInfo)
   @objc dynamic public func xilu_AdTick(_ xiluAd: ADXiluSDK.ADXiluBaseAd, remainingTime: Foundation.TimeInterval)
 }
-@objc public protocol ADXiluDrawVodAdDelegate {
-  @objc optional func drawVodAdDidReceive(_ drawVodAd: ADXiluSDK.ADXiluDrawVodAd, adInfoList: [ADXiluSDK.ADXiluDrawVodAdInfo])
-  @objc optional func drawVodAdDidExpose(_ drawVodAd: ADXiluSDK.ADXiluDrawVodAd, adInfo: ADXiluSDK.ADXiluDrawVodAdInfo)
-  @objc optional func drawVodAdDidClick(_ drawVodAd: ADXiluSDK.ADXiluDrawVodAd, adInfo: ADXiluSDK.ADXiluDrawVodAdInfo)
-  @objc optional func drawVodAdDidClose(_ drawVodAd: ADXiluSDK.ADXiluDrawVodAd, adInfo: ADXiluSDK.ADXiluDrawVodAdInfo)
-  @objc optional func drawVodAdRenderFailed(_ drawVodAd: ADXiluSDK.ADXiluDrawVodAd, adInfo: ADXiluSDK.ADXiluDrawVodAdInfo, error: ADXiluSDK.ADXiluError)
-  @objc optional func drawVodAdDidFail(_ drawVodAd: ADXiluSDK.ADXiluDrawVodAd, error: ADXiluSDK.ADXiluError)
-}
-@objc public class ADXiluDrawVodAdInfo : ADXiluSDK.ADXiluAdInfo {
-  @objc final public let title: Swift.String
-  @objc final public let desc: Swift.String
-  @objc final public let imageUrl: Swift.String?
-  @objc final public let videoUrl: Swift.String?
-  @objc final public let adSize: ADXiluSDK.ADXiluAdSize
-  @objc public init(adId: Swift.String, platform: ADXiluSDK.ADXiluAdPlatform, title: Swift.String, desc: Swift.String, imageUrl: Swift.String? = nil, videoUrl: Swift.String? = nil, adSize: ADXiluSDK.ADXiluAdSize)
-  required public init?(map: ObjectMapper.Map)
-  @objc public func getAdView() -> UIKit.UIView
-  @objc deinit
-}
-@objc public class ADXiluDrawVodAd : ObjectiveC.NSObject {
-  @objc final public let adPosId: Swift.String
-  @objc final public let adSize: ADXiluSDK.ADXiluAdSize
-  @objc final public let count: Swift.Int
-  @objc public var onlySupportPlatform: ADXiluSDK.ADXiluAdPlatform
-  @objc weak public var delegate: (any ADXiluSDK.ADXiluDrawVodAdDelegate)?
-  @objc public init(adPosId: Swift.String, adSize: ADXiluSDK.ADXiluAdSize, count: Swift.Int = 2)
-  @objc public func loadAd()
-  @objc public func getCurrentAdInfoList() -> [ADXiluSDK.ADXiluDrawVodAdInfo]
-  @objc public func p_release()
-  @objc deinit
-}
-@objc public protocol ADXiluFullScreenVodAdDelegate {
-  @objc optional func fullScreenVodAdDidReceive(_ fullScreenVodAd: ADXiluSDK.ADXiluFullScreenVodAd, adInfo: ADXiluSDK.ADXiluAdInfo)
-  @objc optional func fullScreenVodAdVideoDidCache(_ fullScreenVodAd: ADXiluSDK.ADXiluFullScreenVodAd, adInfo: ADXiluSDK.ADXiluAdInfo)
-  @objc optional func fullScreenVodAdVideoDidComplete(_ fullScreenVodAd: ADXiluSDK.ADXiluFullScreenVodAd, adInfo: ADXiluSDK.ADXiluAdInfo)
-  @objc optional func fullScreenVodAdVideoDidError(_ fullScreenVodAd: ADXiluSDK.ADXiluFullScreenVodAd, adInfo: ADXiluSDK.ADXiluAdInfo, error: ADXiluSDK.ADXiluError)
-  @objc optional func fullScreenVodAdDidExpose(_ fullScreenVodAd: ADXiluSDK.ADXiluFullScreenVodAd, adInfo: ADXiluSDK.ADXiluAdInfo)
-  @objc optional func fullScreenVodAdDidClick(_ fullScreenVodAd: ADXiluSDK.ADXiluFullScreenVodAd, adInfo: ADXiluSDK.ADXiluAdInfo)
-  @objc optional func fullScreenVodAdDidClose(_ fullScreenVodAd: ADXiluSDK.ADXiluFullScreenVodAd, adInfo: ADXiluSDK.ADXiluAdInfo)
-  @objc optional func fullScreenVodAdDidFail(_ fullScreenVodAd: ADXiluSDK.ADXiluFullScreenVodAd, error: ADXiluSDK.ADXiluError)
-}
-@objc public class ADXiluFullScreenVodAd : ADXiluSDK.ADXiluBaseAd {
-  @objc public var isMuted: Swift.Bool
-  @objc public var sceneId: Swift.String?
-  @objc weak public var extraDelegate: (any ADXiluSDK.ADXiluFullScreenVodAdDelegate)?
-  @objc public init(adPosId: Swift.String)
-  @objc override public func loadAd()
-  @objc public func showAd(from viewController: UIKit.UIViewController)
-  @objc public func closeAd()
-  @objc public func p_release()
-  @objc deinit
-}
 @objc public class ADXiluInterstitialAd : ADXiluSDK.ADXiluBaseAd {
   @objc public init(adPosId: Swift.String, adSize: ADXiluSDK.ADXiluAdSize, rootVC: UIKit.UIViewController?)
   @objc override public func loadAd()
