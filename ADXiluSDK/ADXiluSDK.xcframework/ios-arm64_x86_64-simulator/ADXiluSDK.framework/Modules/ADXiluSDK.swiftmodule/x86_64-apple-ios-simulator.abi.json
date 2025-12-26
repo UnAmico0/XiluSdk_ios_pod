@@ -13316,6 +13316,2406 @@
       },
       {
         "kind": "Import",
+        "name": "ObjectMapper",
+        "printedName": "ObjectMapper",
+        "declKind": "Import",
+        "moduleName": "ADXiluSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ADXiluDrawVodAdDelegate",
+        "printedName": "ADXiluDrawVodAdDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "drawVodAdDidReceive",
+            "printedName": "drawVodAdDidReceive(_:adInfoList:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluDrawVodAd",
+                "printedName": "ADXiluSDK.ADXiluDrawVodAd",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ADXiluSDK.ADXiluDrawVodAdInfo]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ADXiluDrawVodAdInfo",
+                    "printedName": "ADXiluSDK.ADXiluDrawVodAdInfo",
+                    "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluDrawVodAdDelegate(im)drawVodAdDidReceive:adInfoList:",
+            "mangledName": "$s9ADXiluSDK0A17DrawVodAdDelegateP04drawdE10DidReceive_10adInfoListyAA0acdE0C_SayAA0acdeK0CGtF",
+            "moduleName": "ADXiluSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ADXiluSDK.ADXiluDrawVodAdDelegate>",
+            "sugared_genericSig": "<Self where Self : ADXiluSDK.ADXiluDrawVodAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "drawVodAdDidExpose",
+            "printedName": "drawVodAdDidExpose(_:adInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluDrawVodAd",
+                "printedName": "ADXiluSDK.ADXiluDrawVodAd",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluDrawVodAdInfo",
+                "printedName": "ADXiluSDK.ADXiluDrawVodAdInfo",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluDrawVodAdDelegate(im)drawVodAdDidExpose:adInfo:",
+            "mangledName": "$s9ADXiluSDK0A17DrawVodAdDelegateP04drawdE9DidExpose_6adInfoyAA0acdE0C_AA0acdeK0CtF",
+            "moduleName": "ADXiluSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ADXiluSDK.ADXiluDrawVodAdDelegate>",
+            "sugared_genericSig": "<Self where Self : ADXiluSDK.ADXiluDrawVodAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "drawVodAdDidClick",
+            "printedName": "drawVodAdDidClick(_:adInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluDrawVodAd",
+                "printedName": "ADXiluSDK.ADXiluDrawVodAd",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluDrawVodAdInfo",
+                "printedName": "ADXiluSDK.ADXiluDrawVodAdInfo",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluDrawVodAdDelegate(im)drawVodAdDidClick:adInfo:",
+            "mangledName": "$s9ADXiluSDK0A17DrawVodAdDelegateP04drawdE8DidClick_6adInfoyAA0acdE0C_AA0acdeK0CtF",
+            "moduleName": "ADXiluSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ADXiluSDK.ADXiluDrawVodAdDelegate>",
+            "sugared_genericSig": "<Self where Self : ADXiluSDK.ADXiluDrawVodAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "drawVodAdDidClose",
+            "printedName": "drawVodAdDidClose(_:adInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluDrawVodAd",
+                "printedName": "ADXiluSDK.ADXiluDrawVodAd",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluDrawVodAdInfo",
+                "printedName": "ADXiluSDK.ADXiluDrawVodAdInfo",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluDrawVodAdDelegate(im)drawVodAdDidClose:adInfo:",
+            "mangledName": "$s9ADXiluSDK0A17DrawVodAdDelegateP04drawdE8DidClose_6adInfoyAA0acdE0C_AA0acdeK0CtF",
+            "moduleName": "ADXiluSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ADXiluSDK.ADXiluDrawVodAdDelegate>",
+            "sugared_genericSig": "<Self where Self : ADXiluSDK.ADXiluDrawVodAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "drawVodAdRenderFailed",
+            "printedName": "drawVodAdRenderFailed(_:adInfo:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluDrawVodAd",
+                "printedName": "ADXiluSDK.ADXiluDrawVodAd",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluDrawVodAdInfo",
+                "printedName": "ADXiluSDK.ADXiluDrawVodAdInfo",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluError",
+                "printedName": "ADXiluSDK.ADXiluError",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluDrawVodAdDelegate(im)drawVodAdRenderFailed:adInfo:error:",
+            "mangledName": "$s9ADXiluSDK0A17DrawVodAdDelegateP04drawdE12RenderFailed_6adInfo5erroryAA0acdE0C_AA0acdeK0CAA0A5ErrorCtF",
+            "moduleName": "ADXiluSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ADXiluSDK.ADXiluDrawVodAdDelegate>",
+            "sugared_genericSig": "<Self where Self : ADXiluSDK.ADXiluDrawVodAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "drawVodAdDidFail",
+            "printedName": "drawVodAdDidFail(_:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluDrawVodAd",
+                "printedName": "ADXiluSDK.ADXiluDrawVodAd",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluError",
+                "printedName": "ADXiluSDK.ADXiluError",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluDrawVodAdDelegate(im)drawVodAdDidFail:error:",
+            "mangledName": "$s9ADXiluSDK0A17DrawVodAdDelegateP04drawdE7DidFail_5erroryAA0acdE0C_AA0A5ErrorCtF",
+            "moduleName": "ADXiluSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ADXiluSDK.ADXiluDrawVodAdDelegate>",
+            "sugared_genericSig": "<Self where Self : ADXiluSDK.ADXiluDrawVodAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluDrawVodAdDelegate",
+        "mangledName": "$s9ADXiluSDK0A17DrawVodAdDelegateP",
+        "moduleName": "ADXiluSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ADXiluDrawVodAdInfo",
+        "printedName": "ADXiluDrawVodAdInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo(py)title",
+            "mangledName": "$s9ADXiluSDK0A13DrawVodAdInfoC5titleSSvp",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo(im)title",
+                "mangledName": "$s9ADXiluSDK0A13DrawVodAdInfoC5titleSSvg",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "desc",
+            "printedName": "desc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo(py)desc",
+            "mangledName": "$s9ADXiluSDK0A13DrawVodAdInfoC4descSSvp",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo(im)desc",
+                "mangledName": "$s9ADXiluSDK0A13DrawVodAdInfoC4descSSvg",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageUrl",
+            "printedName": "imageUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo(py)imageUrl",
+            "mangledName": "$s9ADXiluSDK0A13DrawVodAdInfoC8imageUrlSSSgvp",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo(im)imageUrl",
+                "mangledName": "$s9ADXiluSDK0A13DrawVodAdInfoC8imageUrlSSSgvg",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoUrl",
+            "printedName": "videoUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo(py)videoUrl",
+            "mangledName": "$s9ADXiluSDK0A13DrawVodAdInfoC8videoUrlSSSgvp",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo(im)videoUrl",
+                "mangledName": "$s9ADXiluSDK0A13DrawVodAdInfoC8videoUrlSSSgvg",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adSize",
+            "printedName": "adSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluAdSize",
+                "printedName": "ADXiluSDK.ADXiluAdSize",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluAdSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo(py)adSize",
+            "mangledName": "$s9ADXiluSDK0A13DrawVodAdInfoC6adSizeAA0aeH0Cvp",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ADXiluAdSize",
+                    "printedName": "ADXiluSDK.ADXiluAdSize",
+                    "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluAdSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo(im)adSize",
+                "mangledName": "$s9ADXiluSDK0A13DrawVodAdInfoC6adSizeAA0aeH0Cvg",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adId:platform:title:desc:imageUrl:videoUrl:adSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluDrawVodAdInfo",
+                "printedName": "ADXiluSDK.ADXiluDrawVodAdInfo",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluAdPlatform",
+                "printedName": "ADXiluSDK.ADXiluAdPlatform",
+                "usr": "c:@M@ADXiluSDK@E@ADXiluAdPlatform"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluAdSize",
+                "printedName": "ADXiluSDK.ADXiluAdSize",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluAdSize"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo(im)initWithAdId:platform:title:desc:imageUrl:videoUrl:adSize:",
+            "mangledName": "$s9ADXiluSDK0A13DrawVodAdInfoC4adId8platform5title4desc8imageUrl05videoM00G4SizeACSS_AA0aE8PlatformOS3SSgAmA0aeO0Ctcfc",
+            "moduleName": "ADXiluSDK",
+            "objc_name": "initWithAdId:platform:title:desc:imageUrl:videoUrl:adSize:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(map:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ADXiluSDK.ADXiluDrawVodAdInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ADXiluDrawVodAdInfo",
+                    "printedName": "ADXiluSDK.ADXiluDrawVodAdInfo",
+                    "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Map",
+                "printedName": "ObjectMapper.Map",
+                "usr": "s:12ObjectMapper3MapC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9ADXiluSDK0A13DrawVodAdInfoC3mapACSg12ObjectMapper3MapC_tcfc",
+            "mangledName": "$s9ADXiluSDK0A13DrawVodAdInfoC3mapACSg12ObjectMapper3MapC_tcfc",
+            "moduleName": "ADXiluSDK",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getAdView",
+            "printedName": "getAdView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo(im)getAdView",
+            "mangledName": "$s9ADXiluSDK0A13DrawVodAdInfoC03getE4ViewSo6UIViewCyF",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adId:platform:isReady:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluDrawVodAdInfo",
+                "printedName": "ADXiluSDK.ADXiluDrawVodAdInfo",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluAdPlatform",
+                "printedName": "ADXiluSDK.ADXiluAdPlatform",
+                "usr": "c:@M@ADXiluSDK@E@ADXiluAdPlatform"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo(im)initWithAdId:platform:isReady:",
+            "mangledName": "$s9ADXiluSDK0A13DrawVodAdInfoC4adId8platform7isReadyACSS_AA0aE8PlatformOSbtcfc",
+            "moduleName": "ADXiluSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithAdId:platform:isReady:",
+            "declAttributes": [
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo",
+        "mangledName": "$s9ADXiluSDK0A13DrawVodAdInfoC",
+        "moduleName": "ADXiluSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:@M@ADXiluSDK@objc(cs)ADXiluAdInfo",
+        "superclassNames": [
+          "ADXiluSDK.ADXiluAdInfo",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Mappable",
+            "printedName": "Mappable",
+            "usr": "s:12ObjectMapper8MappableP",
+            "mangledName": "$s12ObjectMapper8MappableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BaseMappable",
+            "printedName": "BaseMappable",
+            "usr": "s:12ObjectMapper12BaseMappableP",
+            "mangledName": "$s12ObjectMapper12BaseMappableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ADXiluDrawVodAd",
+        "printedName": "ADXiluDrawVodAd",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adPosId",
+            "printedName": "adPosId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd(py)adPosId",
+            "mangledName": "$s9ADXiluSDK0A9DrawVodAdC7adPosIdSSvp",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd(im)adPosId",
+                "mangledName": "$s9ADXiluSDK0A9DrawVodAdC7adPosIdSSvg",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adSize",
+            "printedName": "adSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluAdSize",
+                "printedName": "ADXiluSDK.ADXiluAdSize",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluAdSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd(py)adSize",
+            "mangledName": "$s9ADXiluSDK0A9DrawVodAdC6adSizeAA0aeG0Cvp",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ADXiluAdSize",
+                    "printedName": "ADXiluSDK.ADXiluAdSize",
+                    "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluAdSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd(im)adSize",
+                "mangledName": "$s9ADXiluSDK0A9DrawVodAdC6adSizeAA0aeG0Cvg",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "count",
+            "printedName": "count",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd(py)count",
+            "mangledName": "$s9ADXiluSDK0A9DrawVodAdC5countSivp",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd(im)count",
+                "mangledName": "$s9ADXiluSDK0A9DrawVodAdC5countSivg",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onlySupportPlatform",
+            "printedName": "onlySupportPlatform",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluAdPlatform",
+                "printedName": "ADXiluSDK.ADXiluAdPlatform",
+                "usr": "c:@M@ADXiluSDK@E@ADXiluAdPlatform"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd(py)onlySupportPlatform",
+            "mangledName": "$s9ADXiluSDK0A9DrawVodAdC19onlySupportPlatformAA0aeH0Ovp",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ADXiluAdPlatform",
+                    "printedName": "ADXiluSDK.ADXiluAdPlatform",
+                    "usr": "c:@M@ADXiluSDK@E@ADXiluAdPlatform"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd(im)onlySupportPlatform",
+                "mangledName": "$s9ADXiluSDK0A9DrawVodAdC19onlySupportPlatformAA0aeH0Ovg",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ADXiluAdPlatform",
+                    "printedName": "ADXiluSDK.ADXiluAdPlatform",
+                    "usr": "c:@M@ADXiluSDK@E@ADXiluAdPlatform"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd(im)setOnlySupportPlatform:",
+                "mangledName": "$s9ADXiluSDK0A9DrawVodAdC19onlySupportPlatformAA0aeH0Ovs",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ADXiluSDK0A9DrawVodAdC19onlySupportPlatformAA0aeH0OvM",
+                "mangledName": "$s9ADXiluSDK0A9DrawVodAdC19onlySupportPlatformAA0aeH0OvM",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any ADXiluSDK.ADXiluDrawVodAdDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd(py)delegate",
+            "mangledName": "$s9ADXiluSDK0A9DrawVodAdC8delegateAA0acdE8Delegate_pSgvp",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any ADXiluSDK.ADXiluDrawVodAdDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ADXiluDrawVodAdDelegate",
+                        "printedName": "any ADXiluSDK.ADXiluDrawVodAdDelegate",
+                        "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluDrawVodAdDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd(im)delegate",
+                "mangledName": "$s9ADXiluSDK0A9DrawVodAdC8delegateAA0acdE8Delegate_pSgvg",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any ADXiluSDK.ADXiluDrawVodAdDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ADXiluDrawVodAdDelegate",
+                        "printedName": "any ADXiluSDK.ADXiluDrawVodAdDelegate",
+                        "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluDrawVodAdDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd(im)setDelegate:",
+                "mangledName": "$s9ADXiluSDK0A9DrawVodAdC8delegateAA0acdE8Delegate_pSgvs",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ADXiluSDK0A9DrawVodAdC8delegateAA0acdE8Delegate_pSgvM",
+                "mangledName": "$s9ADXiluSDK0A9DrawVodAdC8delegateAA0acdE8Delegate_pSgvM",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adPosId:adSize:count:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluDrawVodAd",
+                "printedName": "ADXiluSDK.ADXiluDrawVodAd",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluAdSize",
+                "printedName": "ADXiluSDK.ADXiluAdSize",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluAdSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd(im)initWithAdPosId:adSize:count:",
+            "mangledName": "$s9ADXiluSDK0A9DrawVodAdC7adPosId0F4Size5countACSS_AA0aeI0CSitcfc",
+            "moduleName": "ADXiluSDK",
+            "objc_name": "initWithAdPosId:adSize:count:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAd",
+            "printedName": "loadAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd(im)loadAd",
+            "mangledName": "$s9ADXiluSDK0A9DrawVodAdC04loadE0yyF",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentAdInfoList",
+            "printedName": "getCurrentAdInfoList()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ADXiluSDK.ADXiluDrawVodAdInfo]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ADXiluDrawVodAdInfo",
+                    "printedName": "ADXiluSDK.ADXiluDrawVodAdInfo",
+                    "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAdInfo"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd(im)getCurrentAdInfoList",
+            "mangledName": "$s9ADXiluSDK0A9DrawVodAdC010getCurrentE8InfoListSayAA0acdeH0CGyF",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "p_release",
+            "printedName": "p_release()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd(im)p_release",
+            "mangledName": "$s9ADXiluSDK0A9DrawVodAdC9p_releaseyyF",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluDrawVodAd",
+                "printedName": "ADXiluSDK.ADXiluDrawVodAd",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd(im)init",
+            "mangledName": "$s9ADXiluSDK0A9DrawVodAdCACycfc",
+            "moduleName": "ADXiluSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluDrawVodAd",
+        "mangledName": "$s9ADXiluSDK0A9DrawVodAdC",
+        "moduleName": "ADXiluSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ADXiluSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ADXiluSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ADXiluFullScreenVodAdDelegate",
+        "printedName": "ADXiluFullScreenVodAdDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fullScreenVodAdDidReceive",
+            "printedName": "fullScreenVodAdDidReceive(_:adInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluFullScreenVodAd",
+                "printedName": "ADXiluSDK.ADXiluFullScreenVodAd",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluAdInfo",
+                "printedName": "ADXiluSDK.ADXiluAdInfo",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluFullScreenVodAdDelegate(im)fullScreenVodAdDidReceive:adInfo:",
+            "mangledName": "$s9ADXiluSDK0A23FullScreenVodAdDelegateP04fulldeF10DidReceive_6adInfoyAA0acdeF0C_AA0afL0CtF",
+            "moduleName": "ADXiluSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ADXiluSDK.ADXiluFullScreenVodAdDelegate>",
+            "sugared_genericSig": "<Self where Self : ADXiluSDK.ADXiluFullScreenVodAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fullScreenVodAdVideoDidCache",
+            "printedName": "fullScreenVodAdVideoDidCache(_:adInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluFullScreenVodAd",
+                "printedName": "ADXiluSDK.ADXiluFullScreenVodAd",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluAdInfo",
+                "printedName": "ADXiluSDK.ADXiluAdInfo",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluFullScreenVodAdDelegate(im)fullScreenVodAdVideoDidCache:adInfo:",
+            "mangledName": "$s9ADXiluSDK0A23FullScreenVodAdDelegateP04fulldeF13VideoDidCache_6adInfoyAA0acdeF0C_AA0afM0CtF",
+            "moduleName": "ADXiluSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ADXiluSDK.ADXiluFullScreenVodAdDelegate>",
+            "sugared_genericSig": "<Self where Self : ADXiluSDK.ADXiluFullScreenVodAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fullScreenVodAdVideoDidComplete",
+            "printedName": "fullScreenVodAdVideoDidComplete(_:adInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluFullScreenVodAd",
+                "printedName": "ADXiluSDK.ADXiluFullScreenVodAd",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluAdInfo",
+                "printedName": "ADXiluSDK.ADXiluAdInfo",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluFullScreenVodAdDelegate(im)fullScreenVodAdVideoDidComplete:adInfo:",
+            "mangledName": "$s9ADXiluSDK0A23FullScreenVodAdDelegateP04fulldeF16VideoDidComplete_6adInfoyAA0acdeF0C_AA0afM0CtF",
+            "moduleName": "ADXiluSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ADXiluSDK.ADXiluFullScreenVodAdDelegate>",
+            "sugared_genericSig": "<Self where Self : ADXiluSDK.ADXiluFullScreenVodAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fullScreenVodAdVideoDidError",
+            "printedName": "fullScreenVodAdVideoDidError(_:adInfo:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluFullScreenVodAd",
+                "printedName": "ADXiluSDK.ADXiluFullScreenVodAd",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluAdInfo",
+                "printedName": "ADXiluSDK.ADXiluAdInfo",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluAdInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluError",
+                "printedName": "ADXiluSDK.ADXiluError",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluFullScreenVodAdDelegate(im)fullScreenVodAdVideoDidError:adInfo:error:",
+            "mangledName": "$s9ADXiluSDK0A23FullScreenVodAdDelegateP04fulldeF13VideoDidError_6adInfo5erroryAA0acdeF0C_AA0afM0CAA0aK0CtF",
+            "moduleName": "ADXiluSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ADXiluSDK.ADXiluFullScreenVodAdDelegate>",
+            "sugared_genericSig": "<Self where Self : ADXiluSDK.ADXiluFullScreenVodAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fullScreenVodAdDidExpose",
+            "printedName": "fullScreenVodAdDidExpose(_:adInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluFullScreenVodAd",
+                "printedName": "ADXiluSDK.ADXiluFullScreenVodAd",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluAdInfo",
+                "printedName": "ADXiluSDK.ADXiluAdInfo",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluFullScreenVodAdDelegate(im)fullScreenVodAdDidExpose:adInfo:",
+            "mangledName": "$s9ADXiluSDK0A23FullScreenVodAdDelegateP04fulldeF9DidExpose_6adInfoyAA0acdeF0C_AA0afL0CtF",
+            "moduleName": "ADXiluSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ADXiluSDK.ADXiluFullScreenVodAdDelegate>",
+            "sugared_genericSig": "<Self where Self : ADXiluSDK.ADXiluFullScreenVodAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fullScreenVodAdDidClick",
+            "printedName": "fullScreenVodAdDidClick(_:adInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluFullScreenVodAd",
+                "printedName": "ADXiluSDK.ADXiluFullScreenVodAd",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluAdInfo",
+                "printedName": "ADXiluSDK.ADXiluAdInfo",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluFullScreenVodAdDelegate(im)fullScreenVodAdDidClick:adInfo:",
+            "mangledName": "$s9ADXiluSDK0A23FullScreenVodAdDelegateP04fulldeF8DidClick_6adInfoyAA0acdeF0C_AA0afL0CtF",
+            "moduleName": "ADXiluSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ADXiluSDK.ADXiluFullScreenVodAdDelegate>",
+            "sugared_genericSig": "<Self where Self : ADXiluSDK.ADXiluFullScreenVodAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fullScreenVodAdDidClose",
+            "printedName": "fullScreenVodAdDidClose(_:adInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluFullScreenVodAd",
+                "printedName": "ADXiluSDK.ADXiluFullScreenVodAd",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluAdInfo",
+                "printedName": "ADXiluSDK.ADXiluAdInfo",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluFullScreenVodAdDelegate(im)fullScreenVodAdDidClose:adInfo:",
+            "mangledName": "$s9ADXiluSDK0A23FullScreenVodAdDelegateP04fulldeF8DidClose_6adInfoyAA0acdeF0C_AA0afL0CtF",
+            "moduleName": "ADXiluSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ADXiluSDK.ADXiluFullScreenVodAdDelegate>",
+            "sugared_genericSig": "<Self where Self : ADXiluSDK.ADXiluFullScreenVodAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fullScreenVodAdDidFail",
+            "printedName": "fullScreenVodAdDidFail(_:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluFullScreenVodAd",
+                "printedName": "ADXiluSDK.ADXiluFullScreenVodAd",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluError",
+                "printedName": "ADXiluSDK.ADXiluError",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluFullScreenVodAdDelegate(im)fullScreenVodAdDidFail:error:",
+            "mangledName": "$s9ADXiluSDK0A23FullScreenVodAdDelegateP04fulldeF7DidFail_5erroryAA0acdeF0C_AA0A5ErrorCtF",
+            "moduleName": "ADXiluSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ADXiluSDK.ADXiluFullScreenVodAdDelegate>",
+            "sugared_genericSig": "<Self where Self : ADXiluSDK.ADXiluFullScreenVodAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluFullScreenVodAdDelegate",
+        "mangledName": "$s9ADXiluSDK0A23FullScreenVodAdDelegateP",
+        "moduleName": "ADXiluSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ADXiluFullScreenVodAd",
+        "printedName": "ADXiluFullScreenVodAd",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isMuted",
+            "printedName": "isMuted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd(py)isMuted",
+            "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC7isMutedSbvp",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd(im)isMuted",
+                "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC7isMutedSbvg",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd(im)setIsMuted:",
+                "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC7isMutedSbvs",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ADXiluSDK0A15FullScreenVodAdC7isMutedSbvM",
+                "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC7isMutedSbvM",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sceneId",
+            "printedName": "sceneId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd(py)sceneId",
+            "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC7sceneIdSSSgvp",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd(im)sceneId",
+                "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC7sceneIdSSSgvg",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd(im)setSceneId:",
+                "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC7sceneIdSSSgvs",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ADXiluSDK0A15FullScreenVodAdC7sceneIdSSSgvM",
+                "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC7sceneIdSSSgvM",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "extraDelegate",
+            "printedName": "extraDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any ADXiluSDK.ADXiluFullScreenVodAdDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd(py)extraDelegate",
+            "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC13extraDelegateAA0acdefH0_pSgvp",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any ADXiluSDK.ADXiluFullScreenVodAdDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ADXiluFullScreenVodAdDelegate",
+                        "printedName": "any ADXiluSDK.ADXiluFullScreenVodAdDelegate",
+                        "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluFullScreenVodAdDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd(im)extraDelegate",
+                "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC13extraDelegateAA0acdefH0_pSgvg",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any ADXiluSDK.ADXiluFullScreenVodAdDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ADXiluFullScreenVodAdDelegate",
+                        "printedName": "any ADXiluSDK.ADXiluFullScreenVodAdDelegate",
+                        "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluFullScreenVodAdDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd(im)setExtraDelegate:",
+                "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC13extraDelegateAA0acdefH0_pSgvs",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ADXiluSDK0A15FullScreenVodAdC13extraDelegateAA0acdefH0_pSgvM",
+                "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC13extraDelegateAA0acdefH0_pSgvM",
+                "moduleName": "ADXiluSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adPosId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluFullScreenVodAd",
+                "printedName": "ADXiluSDK.ADXiluFullScreenVodAd",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd(im)initWithAdPosId:",
+            "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC7adPosIdACSS_tcfc",
+            "moduleName": "ADXiluSDK",
+            "objc_name": "initWithAdPosId:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAd",
+            "printedName": "loadAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd(im)loadAd",
+            "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC04loadF0yyF",
+            "moduleName": "ADXiluSDK",
+            "overriding": true,
+            "objc_name": "loadAd",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd(im)showAdFrom:",
+            "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC04showF04fromySo16UIViewControllerC_tF",
+            "moduleName": "ADXiluSDK",
+            "objc_name": "showAdFrom:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeAd",
+            "printedName": "closeAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd(im)closeAd",
+            "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC05closeF0yyF",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "p_release",
+            "printedName": "p_release()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd(im)p_release",
+            "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC9p_releaseyyF",
+            "moduleName": "ADXiluSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adPosId:adSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluFullScreenVodAd",
+                "printedName": "ADXiluSDK.ADXiluFullScreenVodAd",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXiluAdSize",
+                "printedName": "ADXiluSDK.ADXiluAdSize",
+                "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluAdSize"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd(im)initWithAdPosId:adSize:",
+            "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC7adPosId0G4SizeACSS_AA0afJ0Ctcfc",
+            "moduleName": "ADXiluSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithAdPosId:adSize:",
+            "declAttributes": [
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ADXiluSDK@objc(cs)ADXiluFullScreenVodAd",
+        "mangledName": "$s9ADXiluSDK0A15FullScreenVodAdC",
+        "moduleName": "ADXiluSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:@M@ADXiluSDK@objc(cs)ADXiluBaseAd",
+        "superclassNames": [
+          "ADXiluSDK.ADXiluBaseAd",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ADXiluBaseAdDelegate",
+            "printedName": "ADXiluBaseAdDelegate",
+            "usr": "c:@M@ADXiluSDK@objc(pl)ADXiluBaseAdDelegate",
+            "mangledName": "$s9ADXiluSDK0A14BaseAdDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ADXiluSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ADXiluSDK"
+      },
+      {
+        "kind": "Import",
         "name": "MSAdSDK",
         "printedName": "MSAdSDK",
         "declKind": "Import",
@@ -31535,6 +33935,27 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluDrawVodAd.swift",
+      "kind": "Array",
+      "offset": 2839,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluDrawVodAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2923,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluFullScreenVodAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1586,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluInterstitialAd.swift",
       "kind": "IntegerLiteral",
       "offset": 1329,
@@ -31634,36 +34055,120 @@
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluNativeAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4140,
+      "length": 6,
+      "value": "\"feed\""
+    },
+    {
+      "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluNativeAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4167,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluNativeAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4208,
+      "length": 6,
+      "value": "\"feed\""
+    },
+    {
+      "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluNativeAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4233,
+      "length": 4,
+      "value": "\"bz\""
+    },
+    {
+      "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluNativeAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4257,
+      "length": 42,
+      "value": "\"beizi信息流-自渲染广告位配置:\""
+    },
+    {
+      "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluNativeAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4443,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluNativeAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4457,
+      "length": 4,
+      "value": "5000"
+    },
+    {
+      "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluNativeAd.swift",
       "kind": "Array",
-      "offset": 2743,
+      "offset": 4650,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluNativeAd.swift",
       "kind": "Array",
-      "offset": 2803,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluNativeAd.swift",
-      "kind": "Array",
-      "offset": 2885,
+      "offset": 4702,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 16797,
+      "offset": 8067,
+      "length": 5,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluNativeAd.swift",
+      "kind": "StringLiteral",
+      "offset": 8137,
+      "length": 15,
+      "value": "\"原生模版:\""
+    },
+    {
+      "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluNativeAd.swift",
+      "kind": "StringLiteral",
+      "offset": 8555,
+      "length": 14,
+      "value": "\"nativeAdView\""
+    },
+    {
+      "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluNativeAd.swift",
+      "kind": "StringLiteral",
+      "offset": 8607,
+      "length": 17,
+      "value": "\"ms广告视图:\""
+    },
+    {
+      "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluNativeAd.swift",
+      "kind": "StringLiteral",
+      "offset": 8684,
+      "length": 17,
+      "value": "\"ms广告物料:\""
+    },
+    {
+      "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluNativeAd.swift",
+      "kind": "StringLiteral",
+      "offset": 8763,
+      "length": 14,
+      "value": "\"nativeAdData\""
+    },
+    {
+      "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluNativeAd.swift",
+      "kind": "StringLiteral",
+      "offset": 13631,
       "length": 33,
       "value": "\"MSNativeFeedAd { pid: \""
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 16826,
+      "offset": 13660,
       "length": 1,
       "value": "\") }\""
     },
@@ -31789,175 +34294,175 @@
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 4867,
+      "offset": 4870,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 4894,
+      "offset": 4900,
       "length": 3,
       "value": "3"
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 5572,
+      "offset": 5578,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6166,
+      "offset": 6172,
       "length": 49,
       "value": "\"ADXiluError(code: \""
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6192,
+      "offset": 6198,
       "length": 1,
       "value": "\", message: \""
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6213,
+      "offset": 6219,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 6278,
+      "offset": 6284,
       "length": 6,
       "value": "-10001"
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6295,
+      "offset": 6301,
       "length": 31,
       "value": "\"未知错误, 请稍后重试\""
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 6377,
+      "offset": 6383,
       "length": 6,
       "value": "-10002"
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6394,
+      "offset": 6400,
       "length": 31,
       "value": "\"网络异常, 请稍后重试\""
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 6477,
+      "offset": 6483,
       "length": 6,
       "value": "-10003"
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6494,
+      "offset": 6500,
       "length": 41,
       "value": "\"广告配置错误，请检查后重试\""
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 6588,
+      "offset": 6594,
       "length": 6,
       "value": "-10004"
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6605,
+      "offset": 6611,
       "length": 50,
       "value": "\"广告已释放，请重新加载后再次展示\""
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 6709,
+      "offset": 6715,
       "length": 6,
       "value": "-10005"
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6726,
+      "offset": 6732,
       "length": 41,
       "value": "\"广告未加载完成，请稍后重试\""
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 6817,
+      "offset": 6823,
       "length": 6,
       "value": "-10006"
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6834,
+      "offset": 6840,
       "length": 37,
       "value": "\"广告加载失败, 请稍后重试\""
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "StringLiteral",
-      "offset": 7316,
+      "offset": 7322,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 7352,
+      "offset": 7358,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 7396,
+      "offset": 7402,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "StringLiteral",
-      "offset": 7441,
+      "offset": 7447,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "Dictionary",
-      "offset": 7493,
+      "offset": 7499,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 7597,
+      "offset": 7603,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Core\/ADXiluSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 7690,
+      "offset": 7696,
       "length": 4,
       "value": "true"
     },
@@ -32034,21 +34539,21 @@
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluSplashAd.swift",
       "kind": "StringLiteral",
-      "offset": 13006,
+      "offset": 13044,
       "length": 45,
       "value": "\"MSSplashAd { pid: \""
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluSplashAd.swift",
       "kind": "StringLiteral",
-      "offset": 13031,
+      "offset": 13069,
       "length": 1,
       "value": "\", ecpm: \""
     },
     {
       "filePath": "\/Users\/rohoninfosh\/XiluSdk-ios_branch\/ADXiluSDK\/Classes\/Ads\/ADXiluSplashAd.swift",
       "kind": "StringLiteral",
-      "offset": 13048,
+      "offset": 13086,
       "length": 1,
       "value": "\" }\""
     },

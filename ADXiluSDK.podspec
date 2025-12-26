@@ -35,5 +35,6 @@ Pod::Spec.new do |s|
   s.dependency 'CryptoSwift'
   s.dependency 'BeiZiSDK-iOS', '4.90.7.0'
   s.dependency 'MSMobAdSDK/MS', '2.7.7.3'
+  s.dependency 'SnapKit', '5.6.0'
  
 end
