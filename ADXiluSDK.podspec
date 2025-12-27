@@ -2,7 +2,6 @@ Pod::Spec.new do |s|
   s.name             = 'ADXiluSDK'
   s.version          = '1.0.6'
   s.summary          = 'ADXilu iOS SDK - 广告聚合SDK'
-  s.static_framework = true
   s.description      = <<-DESC
     ADXilu iOS SDK 是一个广告聚合SDK，支持多个主流广告平台，提供统一的广告接口。
   DESC
