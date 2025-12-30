@@ -87,11 +87,11 @@ pod install
 import ADXiluSDK
 
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    ADXiluSDK.shared.initialize(appId: "your_app_id", debug: true) { success, error in
+    ADXiluSDKManager.shared.initialize(appId: "your_app_id", debug: true) { success, error in
         if success {
-            print("ADXiluSDK initialized successfully")
+            print("ADXiluSDKManager initialized successfully")
         } else {
-            print("ADXiluSDK initialization failed: \(error ?? "Unknown error")")
+            print("ADXiluSDKManager initialization failed: \(error ?? "Unknown error")")
         }
     }
     return true
