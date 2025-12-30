@@ -160,7 +160,7 @@ class BannerAdViewController: UIViewController {
     }
     
     private func loadBannerAd() {
-        guard ADXiluSDK.shared.isInitialized else {
+        guard ADXiluSDKManager.shared.isInitialized else {
             print("SDK未初始化")
             return
         }
@@ -239,7 +239,7 @@ class InterstitialAdViewController: UIViewController {
     private var interstitialAd: ADXiluInterstitialAd?
     
     private func loadInterstitialAd() {
-        guard ADXiluSDK.shared.isInitialized else {
+        guard ADXiluSDKManager.shared.isInitialized else {
             print("SDK未初始化")
             return
         }
@@ -283,7 +283,7 @@ extension InterstitialAdViewController: ADXiluBaseAdDelegate {
 #import <ADXiluSDK/ADXiluSDK.h>
 
 - (void)loadRewardVodAd {
-    if (![ADXiluSDK.shared isInitialized]) {
+    if (![ADXiluSDKManager.shared isInitialized]) {
         [self showAlertWithTitle:@"错误" message:@"SDK未初始化"];
         return;
     }
@@ -329,7 +329,7 @@ class RewardVodAdViewController: UIViewController {
     private var rewardVodAd: ADXiluRewardVodAd?
     
     private func loadRewardVodAd() {
-        guard ADXiluSDK.shared.isInitialized else {
+        guard ADXiluSDKManager.shared.isInitialized else {
             print("SDK未初始化")
             return
         }
@@ -378,7 +378,7 @@ extension RewardVodAdViewController: ADXiluRewardVodAdDelegate {
 #import <ADXiluSDK/ADXiluSDK.h>
 
 - (void)loadSplashAd {
-    if (![ADXiluSDK.shared isInitialized]) {
+    if (![ADXiluSDKManager.shared isInitialized]) {
         [self showAlertWithTitle:@"错误" message:@"SDK未初始化"];
         return;
     }
@@ -423,7 +423,7 @@ class SplashAdViewController: UIViewController {
     private var splashAd: ADXiluSplashAd?
     
     private func loadSplashAd() {
-        guard ADXiluSDK.shared.isInitialized else {
+        guard ADXiluSDKManager.shared.isInitialized else {
             print("SDK未初始化")
             return
         }
@@ -510,7 +510,7 @@ extension SplashAdViewController: ADXiluBaseAdDelegate {
 class NativeRenderAdViewController: UIViewController {
     
     @objc private func loadAd() {
-        guard ADXiluSDK.shared.isInitialized else {
+        guard ADXiluSDKManager.shared.isInitialized else {
             showAlert(title: "错误", message: "SDK未初始化")
             return
         }
@@ -711,7 +711,7 @@ extension NativeRenderAdViewController: ADXiluBaseAdDelegate {
 
 ```swift
 // 初始化时设置调试模式
-ADXiluSDK.shared.initialize(appId: "your_app_id", debug: true) { success, error in
+ADXiluSDKManager.shared.initialize(appId: "your_app_id", debug: true) { success, error in
     if success {
         print("SDK初始化成功")
     } else {
