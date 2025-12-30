@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
     ADXilu iOS SDK 是一个广告聚合SDK，支持多个主流广告平台，提供统一的广告接口。
   DESC
 
-  s.homepage         = 'https://github.com/xiluProject/XiluSdk_ios_pod'
+  s.homepage         = 'https://github.com/UnAmico0/XiluSdk_ios_pod'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'sagan' => 'sagan@xilu.com' }
-  s.source           = { :git => 'https://github.com/xiluProject/XiluSdk_ios_pod.git', :tag => s.version.to_s }
+  s.author           = { 'zyn' => 'zyn@163.com' }
+  s.source           = { :git => 'https://github.com/UnAmico0/XiluSdk_ios_pod.git', :tag => s.version.to_s }
 
   s.platform    = :ios, '12.2'
   s.ios.deployment_target = '12.2'
