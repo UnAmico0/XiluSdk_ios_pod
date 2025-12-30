@@ -68,7 +68,7 @@ pod install
 #import <ADXiluSDK/ADXiluSDK.h>
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [[ADXiluSDK shared] initializeWithAppId:@"your_app_id" 
+    [[ADXiluSDKManager shared] initializeWithAppId:@"your_app_id" 
                                      debug:YES 
                                  completion:^(BOOL success, NSString * _Nullable error) {
         if (success) {
@@ -108,7 +108,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 #import <ADXiluSDK/ADXiluSDK.h>
 
 - (void)loadBannerAd {
-    if (![ADXiluSDK shared].isInitialized) {
+    if (![ADXiluSDKManager shared].isInitialized) {
         [self showAlertWithTitle:@"错误" message:@"SDK未初始化"];
         return;
     }
@@ -205,7 +205,7 @@ extension BannerAdViewController: ADXiluBaseAdDelegate {
 #import <ADXiluSDK/ADXiluSDK.h>
 
 - (void)loadInterstitialAd {
-    if (![ADXiluSDK shared].isInitialized) {
+    if (![ADXiluSDKManager shared].isInitialized) {
         [self showAlertWithTitle:@"错误" message:@"SDK未初始化"];
         return;
     }
@@ -752,7 +752,7 @@ ADXiluSDK采用组件化架构设计：
 ```
 ADXiluSDK/
 ├── Core/                    # 核心模块
-│   ├── ADXiluSDK.swift     # 主管理类
+│   ├── ADXiluSDKManager.swift     # 主管理类
 │   ├── ADXiluBaseAd.swift  # 广告基类
 │   ├── ADAdaptor.swift     # 适配器管理
 │   └── ADNetworkTool.swift # 网络工具
