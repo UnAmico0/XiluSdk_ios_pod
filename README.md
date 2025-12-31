@@ -520,7 +520,7 @@ class NativeRenderAdViewController: UIViewController {
         
         // 创建信息流广告
         let adSize = ADXiluAdSize(width: UIScreen.main.bounds.width, height: 300)
-        nativeAd = ADXiluNativeAd(adPosId: your_interstitial_ad_pos_id, adSize: adSize, count:ad_count)
+        nativeAd = ADXiluNativeAd(adPosId: "your_interstitial_ad_pos_id", adSize: adSize, count:ad_count)
         nativeAd?.isTemplate = false (信息流模板广告为true,信息流自渲染广告为false)
         nativeAd?.nativeViewController = self
         nativeAd?.delegate = self
