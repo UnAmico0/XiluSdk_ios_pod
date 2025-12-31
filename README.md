@@ -46,7 +46,7 @@ target 'YourApp' do
   use_frameworks!
   
   # 使用远程版本
-  pod 'ADXiluSDK', '~> 1.0.0'
+pod 'ADXiluSDK', :git =>  'https://github.com/UnAmico0/XiluSdk_ios_pod.git'
 end
 ```
 
